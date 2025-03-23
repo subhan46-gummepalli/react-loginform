@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Welcomepage from "./Welcomepage";
 import Signinpage from "./Signinpage";
 import CreateAccount from "./CreateAccount";
@@ -21,4 +21,3 @@ function App() {
 }
 
 export default App;
-
